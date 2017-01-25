@@ -11,7 +11,7 @@ session_start();
 ?>
 
 <?php
-$con = mysqli_connect("localhost","root","","rr");
+$con = mysqli_connect("localhost","root","root","rr");
 
 // Check connection
 if (mysqli_connect_errno())
